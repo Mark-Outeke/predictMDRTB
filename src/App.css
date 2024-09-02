@@ -36,3 +36,89 @@
     transform: rotate(360deg);
   }
 }
+.App {
+  display: flex;
+}
+
+#instance-list .insatance {
+  width: 50%;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+}
+#instance-list .instance-item:hover {
+  background-color: #6d0bef;
+}
+
+#instance-details {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  width: 50%;
+  padding: 10px;
+}
+
+.instance-item {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.instance-item:hover {
+  background-color: #3d06f1;
+}
+/* General table styling */
+.u-table-entity {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  table-layout: auto;
+}
+
+/* Column group styling */
+.u-table-entity col {
+  width: 25%;
+}
+
+/* Table header styling */
+.u-table-entity thead th {
+  background-color: #f2f2f2; /* Light grey background for the header */
+  color: #333; /* Dark text color */
+  padding: 12px 15px;
+  text-align: justify; /* Align text to the left */
+  border: 2px solid #ddd; /* Bottom border for separation */
+  table-layout: auto;
+}
+
+/* Table body styling */
+.u-table-body {
+  background-color: #ffffff; /* White background for body */
+}
+
+/* Alternate row background color */
+.u-table-alt-grey-5 tr:nth-child(even) {
+  background-color: #f9f9f9; /* Light grey for alternate rows */
+}
+
+/* Table cell styling */
+.u-table-cell {
+  padding: 12px 15px;
+  border: 1px solid #ddd; /* Bottom border for each cell */
+  text-align: justify;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: visible; /* Prevent overflow if the content is too large */
+  text-overflow: ellipsis; /* Add ellipsis (...) for overflowed content */
+  table-layout: auto;
+}
+
+
+/* Specific row height */
+.u-table-cell tr {
+  height: 51px;
+  text-align: justify;
+}
+
+/* Optional: Hover effect for rows */
+.u-table-cell tr:hover {
+  background-color: #f1f1f1; /* Slightly darker grey on hover */
+}
